@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Multi-Cloud File Backup</title>
+</head>
+<body>
+  <h2>Upload your file to backup (Planned)</h2>
+  <form id="uploadForm">
+    <input type="file" name="file" id="fileInput" required />
+    <button type="submit">Upload</button>
+  </form>
+
+  <script>
+    document.getElementById('uploadForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      alert("This is a placeholder. Upload logic is not yet connected.");
+    });
+  </script>
+</body>
+</html>
